@@ -1,0 +1,23 @@
+@extends('layouts.app')
+
+@section('content')
+    <section class="content-header">
+        <h1>
+            Ordini Dati Evasi
+        </h1>
+   </section>
+   <div class="content">
+       @include('adminlte-templates::common.errors')
+       <div class="box box-primary">
+           <div class="box-body">
+               <div class="row">
+                   {!! Form::model($ordiniDatiEvasi, ['route' => ['ordiniDatiEvasis.update', $ordiniDatiEvasi->id], 'method' => 'patch']) !!}
+
+                        @include('ordini_dati_evasis.fields')
+
+                   {!! Form::close() !!}
+               </div>
+           </div>
+       </div>
+   </div>
+@endsection

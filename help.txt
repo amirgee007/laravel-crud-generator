@@ -1,4 +1,26 @@
-php artisan infyom:scaffold Abbonamenti --fromTable --tableName=abbonamenti
+php artisan infyom:scaffold Distanze --fromTable --tableName=distanze
+php artisan infyom:scaffold MenuRistorante --fromTable --tableName=menu_ristorante
+php artisan infyom:scaffold MenuSettimanale --fromTable --tableName=menu_settimanale
+php artisan infyom:scaffold OrdiniCorporate --fromTable --tableName=ordini_corporate
+php artisan infyom:scaffold OrdiniDati --fromTable --tableName=ordini_dati
+php artisan infyom:scaffold OrdiniDatiEvasi --fromTable --tableName=ordini_dati_evasi
+php artisan infyom:scaffold OrdiniDatiEvasiMarco --fromTable --tableName=ordini_dati_evasi_marco
+php artisan infyom:scaffold OrdiniProdotti --fromTable --tableName=ordini_prodotti
+php artisan infyom:scaffold OrdiniProdottiEvasi --fromTable --tableName=ordini_prodotti_evasi
+php artisan infyom:scaffold Piatti --fromTable --tableName=piatti
+php artisan infyom:scaffold PiattiPicklist --fromTable --tableName=piatti_picklist
+php artisan infyom:scaffold Picklist --fromTable --tableName=picklist
+php artisan infyom:scaffold Platee --fromTable --tableName=platee
+php artisan infyom:scaffold PreferenzeUtAttributi --fromTable --tableName=preferenze_ut_attributi
+php artisan infyom:scaffold PreferenzeUtAttributiTutti --fromTable --tableName=preferenze_ut_attributi_tutti
+php artisan infyom:scaffold PreferenzeUtPiatti --fromTable --tableName=preferenze_ut_piatti
+php artisan infyom:scaffold Prodotti --fromTable --tableName=prodotti
+php artisan infyom:scaffold Ristoranti --fromTable --tableName=ristoranti
+php artisan infyom:scaffold Distanze --fromTable --tableName=utenti_dati
+php artisan infyom:scaffold Distanze --fromTable --tableName=utenti_indirizzi
+php artisan infyom:scaffold Distanze --fromTable --tableName=utenti_login
+
+
 
 
 
